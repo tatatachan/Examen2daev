@@ -1,12 +1,97 @@
  @charset "utf-8";
 
- h1{
-     background-color:orange;
-    font-size: 200%;
-    font-weight: bold;
+body {
+  background-color:hsl(61, 78%, 83%);
+  font-family:sans-serif
+}
+p:hover {
+    z-index: 3;
+  }
+
+h1 {
+  font: oblique bold 175% cursive;
+  color: white;
+  background-color: orange;
+  text-align: center;
+  padding-bottom: 1%; 
+  padding-top: 1%;
+  text-shadow:red 4px 0;
+  
+}
+nav{
+  padding: 20px 55px;
+    background-color: yellow;
+    border: red 2px solid;
+    color: orangered;
     text-align: center;
-    color:white;
-    text-shadow:red 4px 0;
-    text-transform: uppercase;
-    font-family:Arial, Helvetica, sans-serif;
- }
+    margin-top: -1%;
+}
+
+}
+p.bloque {
+  padding: 10px;
+  font-size: 1.5rem;
+  float: left;
+}
+
+p#ribera {
+  position: absolute;
+  background:url(img/naranja.png) repeat-y,url(img/naranja2.png) repeat-y bottom right;
+  background-size:40px;
+  top: 20%;
+  left: 32%;
+  width: 35%;
+  height: 30%;
+  z-index: 2;
+  border:red 4px solid;
+  background-color:orange;
+  text-align: center;
+  color:orangered;
+  text-decoration:underline;
+  word-spacing: 5px;
+  font-size: 20px
+}
+
+p#pedidos {
+  position: absolute;
+  top: 40%;
+  left: 5%;
+  width: 35%;
+  height: 25%;
+  border: green 4px solid;
+  background-color:lightgoldenrodyellow;
+  text-align: left;
+  color:orange;
+  font-size: 20px
+}
+
+p#productos {
+  position: absolute;
+  
+
+  top: 40%;
+  right: 5%;
+  width: 35%;
+  height: 25%;
+  border: blue 4px solid;
+  background-color: lightblue;
+  text-align: right;
+  color:orange;
+  font-size:20px
+  
+}
+
+ul{
+  position: absolute;
+  bottom: 5%;
+  width: 100%;
+  list-style-type: upper-roman;
+  background-color: orange;
+  color: darkblue;
+}
+p.footer{
+    background-color:yellow;
+    color:red;
+    text-align:center;
+    font-size:20px;
+}
